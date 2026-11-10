@@ -1,0 +1,12 @@
+name: DeathChest
+version: 1.0.0
+main: ru.deathchest.DeathChestPlugin
+api-version: '1.20'
+description: Creates a chest with items and XP at the place of player death
+permissions:
+  deathchest.use:
+    description: Items and XP of the player go to a death chest
+    default: true
+  deathchest.bypass:
+    description: Can open other players' death chests even while they are protected
+    default: op
